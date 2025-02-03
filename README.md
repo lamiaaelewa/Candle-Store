@@ -28,7 +28,7 @@ To get started with this project, follow these steps:
    git clone https://github.com/lamiaaelewa/Candle-Store.git
 2. Navigate to the project directory:
     ```bash
-   cd Candle-Store
+   cd Candle-Store2
 3. Install dependencies:
    ```bash
     npm install
