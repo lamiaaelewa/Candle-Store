@@ -1,0 +1,43 @@
+footer {
+    background-color: #415d43;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #d4edda;
+  }
+  
+  footer i {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  footer i:hover {
+    color: #d4edda;
+  }
+  
+  /* لضبط الأعمدة داخل الفوتر */
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* لجعل المحتوى في المركز */
+    text-align: center;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: space-between; /* ترتيب الأعمدة بشكل متساوي */
+    width: 100%;
+  }
+  
+  .footer-links .footer-column {
+    flex: 1; /* جعل كل عمود يحتل نفس المساحة */
+  }
+  

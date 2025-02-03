@@ -1,0 +1,83 @@
+/* ContactUs.css */
+
+.contact-form {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px; /* إضافة مسافة بين المربع والفوتر */
+  box-shadow: 0 10px 20px rgba(65, 93, 67, 0.4); /* الظل حول المربع */
+  transition: all 0.3s ease-in-out; /* تأثير الحركة الناعمة */
+  max-width: 600px; /* تحديد أقصى عرض للمربع */
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-form h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: #415d43;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 10px yellow; /* تأثير ضوء أصفر خلف النص */
+  margin-top: 20px;
+}
+
+/* تأثير hover على المربع بالكامل */
+.contact-form:hover {
+  transform: scale(1.05); /* تكبير المربع عند التمرير */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* زيادة الظل عند التمرير */
+  
+}
+
+/* تأثير على العنوان */
+.contact-form h2 {
+  color: #415d43;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* التنسيق على الحقول */
+.contact-form .form-control {
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  width: 100%; /* جعل الحقل يعرض 100% من عرض المربع */
+  box-sizing: border-box; /* إضافة لضمان عدم تجاوز الحقل عرض المربع */
+  margin: 10px 0; /* تقليل المسافة بين الحقول */
+  /* زيادة ارتفاع الحقل ليكون أطول قليلاً */
+}
+
+/* حقل الرسالة (textarea) */
+.contact-form .form-control[type="textarea"] {
+  height: 120px; /* زيادة ارتفاع الحقل النصي الكبير */
+  resize: vertical; /* السماح بتغيير الحجم عموديًا فقط */
+  padding: 10px; /* إضافة مسافة داخلية لزيادة المساحة */
+  box-sizing: border-box; /* ضمان أن الحقل لا يتجاوز العرض المحدد */
+}
+
+
+/* التنسيق عندما يتم التفاعل مع الحقول */
+.contact-form .form-control:focus {
+  border-color: #415d43;
+  box-shadow: 0 0 5px rgba(65, 93, 67, 0.5);
+ 
+}
+
+/* تنسيق الزر */
+.contact-form button {
+  background-color: #415d43;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  transition: all 0.3s ease; /* تأثير الزر */
+  width: 100%; /* يجعل الزر بعرض المربع */
+  margin-top: 10px; /* زيادة المسافة بين الزر والحقول */
+}
+
+.contact-form button:hover {
+  background-color: #344e37;
+  transform: translateY(-3px); /* رفع الزر عند التمرير */
+}
