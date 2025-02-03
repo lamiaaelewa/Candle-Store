@@ -26,4 +26,34 @@ To get started with this project, follow these steps:
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/lamiaaelewa/Candle-Store.git
+2. Navigate to the project directory:
+    ```bash
+   cd Candle-Store
+3. Install dependencies:
+   ```bash
+    npm install
+4. Run the development server:
+   ```bash
+    npm start
+   
+## Usage:
+Once the app is running, you can:
+- Browse through the products on the home page.
+- Add products to your shopping cart by clicking the "Add to Cart" button.
+- View and manage your cart by clicking the cart icon on the navigation bar.
+- Remove items or update quantities in your cart.
+- Log in to your account to securely complete your purchase.
+  
+## Contact:
+For any questions or feedback, feel free to reach out:
+
+- Email: [lamiaaelewa38@gmail.com](mailto:lamiaaelewa38@gmail.com)
+- GitHub: [https://github.com/lamiaaelewa](https://github.com/lamiaaelewa)
+- LinkedIn: [https://www.linkedin.com/in/lamiaa-elewa-1a6b862a7/](https://www.linkedin.com/in/lamiaa-elewa-1a6b862a7/)
+
+
+  
+  
+
+
 
