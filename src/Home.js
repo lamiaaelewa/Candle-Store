@@ -6,10 +6,11 @@ import "slick-carousel/slick/slick-theme.css";
 
 function MySlider() {
   const images = [
-    "/images/pexels grey4.jpg", 
-    "/images/pexels grey.jpg",
-    "/images/pexels grey3.jpg",
+    `${process.env.PUBLIC_URL}/images/pexels grey4.jpg`, 
+    `${process.env.PUBLIC_URL}/images/pexels grey.jpg`,
+    `${process.env.PUBLIC_URL}/images/pexels grey3.jpg`
   ];
+  
 
   // Slider
   const settings = {

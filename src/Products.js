@@ -4,14 +4,15 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./Products.css";
 
 const products = [
-  { id: 1, name: "Lavender Bliss", price: 10, image: "/images/candle1.jpg", description: "A relaxing lavender-scented candle." },
-  { id: 2, name: "Citrus Burst", price: 12, image: "/images/candle2.jpg", description: "A fresh citrus blend for energizing vibes." },
-  { id: 3, name: "Vanilla Dream", price: 15, image: "/images/candle3.jpg", description: "A warm vanilla-scented candle for cozy nights." },
-  { id: 4, name: "Mint Breeze", price: 8, image: "/images/candle4.jpg", description: "A soothing eucalyptus and mint aroma." },
-  { id: 5, name: "Sandalwood Serenity", price: 20, image: "/images/candle5.jpg", description: "A rich sandalwood and amber combination." },
-  { id: 6, name: "Tropical Paradise", price: 18, image: "/images/candle6.jpg", description: "A fruity mix of mango and passionfruit." },
-  { id: 7, name: "Morning Brew", price: 22, image: "/images/candle7.jpg", description: "A bold coffee and cocoa scent for mornings." },
-  { id: 8, name: "Floral Bliss", price: 25, image: "/images/candle8.jpg", description: "A floral gardenia and jasmine blend." },
+  { id: 1, name: "Lavender Bliss", price: 10, image: `${process.env.PUBLIC_URL}/images/candle1.jpg`, description: "A relaxing lavender-scented candle." },
+  { id: 2, name: "Citrus Burst", price: 12, image: `${process.env.PUBLIC_URL}/images/candle2.jpg`, description: "A fresh citrus blend for energizing vibes." },
+  { id: 3, name: "Vanilla Dream", price: 15, image: `${process.env.PUBLIC_URL}/images/candle3.jpg`, description: "A warm vanilla-scented candle for cozy nights." },
+  { id: 4, name: "Mint Breeze", price: 8, image: `${process.env.PUBLIC_URL}/images/candle4.jpg`, description: "A soothing eucalyptus and mint aroma." },
+  { id: 5, name: "Sandalwood Serenity", price: 20, image: `${process.env.PUBLIC_URL}/images/candle5.jpg`, description: "A rich sandalwood and amber combination." },
+  { id: 6, name: "Tropical Paradise", price: 18, image: `${process.env.PUBLIC_URL}/images/candle6.jpg`, description: "A fruity mix of mango and passionfruit." },
+  { id: 7, name: "Morning Brew", price: 22, image: `${process.env.PUBLIC_URL}/images/candle7.jpg`, description: "A bold coffee and cocoa scent for mornings." },
+  { id: 8, name: "Floral Bliss", price: 25, image: `${process.env.PUBLIC_URL}/images/candle8.jpg`, description: "A floral gardenia and jasmine blend." },
+  
 ];
 
 const Products = ({ onAddToCart }) => {
