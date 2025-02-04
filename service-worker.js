@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Candle-Store2/precache-manifest.6735d030a306a84e0dacc2ffd8a625d4.js"
+  "/Candle-Store2/precache-manifest.9d09af684efcd49d9c6413696fd2e298.js"
 );
 
 self.addEventListener('message', (event) => {

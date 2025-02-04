@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71acc473dc543a82e429d4a619b69acd",
+    "revision": "af2ac41d7d43dea972144e9921d95414",
     "url": "/Candle-Store2/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Candle-Store2/static/css/2.ae4ae1a0.chunk.css"
   },
   {
-    "revision": "3383dd9c070d8ddcfa61",
+    "revision": "6198af13afb8c69594d7",
     "url": "/Candle-Store2/static/css/main.f592d0c5.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Candle-Store2/static/js/3.99c9c3f4.chunk.js"
   },
   {
-    "revision": "3383dd9c070d8ddcfa61",
-    "url": "/Candle-Store2/static/js/main.ce8d9d06.chunk.js"
+    "revision": "6198af13afb8c69594d7",
+    "url": "/Candle-Store2/static/js/main.6aeb57b1.chunk.js"
   },
   {
     "revision": "ee47de176798d237aeae",

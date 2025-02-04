@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Candle-Store2/static/css/main.f592d0c5.chunk.css",
-    "main.js": "/Candle-Store2/static/js/main.ce8d9d06.chunk.js",
-    "main.js.map": "/Candle-Store2/static/js/main.ce8d9d06.chunk.js.map",
+    "main.js": "/Candle-Store2/static/js/main.6aeb57b1.chunk.js",
+    "main.js.map": "/Candle-Store2/static/js/main.6aeb57b1.chunk.js.map",
     "runtime-main.js": "/Candle-Store2/static/js/runtime-main.9d4563aa.js",
     "runtime-main.js.map": "/Candle-Store2/static/js/runtime-main.9d4563aa.js.map",
     "static/css/2.ae4ae1a0.chunk.css": "/Candle-Store2/static/css/2.ae4ae1a0.chunk.css",
@@ -11,7 +11,7 @@
     "static/js/3.99c9c3f4.chunk.js": "/Candle-Store2/static/js/3.99c9c3f4.chunk.js",
     "static/js/3.99c9c3f4.chunk.js.map": "/Candle-Store2/static/js/3.99c9c3f4.chunk.js.map",
     "index.html": "/Candle-Store2/index.html",
-    "precache-manifest.6735d030a306a84e0dacc2ffd8a625d4.js": "/Candle-Store2/precache-manifest.6735d030a306a84e0dacc2ffd8a625d4.js",
+    "precache-manifest.9d09af684efcd49d9c6413696fd2e298.js": "/Candle-Store2/precache-manifest.9d09af684efcd49d9c6413696fd2e298.js",
     "service-worker.js": "/Candle-Store2/service-worker.js",
     "static/css/2.ae4ae1a0.chunk.css.map": "/Candle-Store2/static/css/2.ae4ae1a0.chunk.css.map",
     "static/css/main.f592d0c5.chunk.css.map": "/Candle-Store2/static/css/main.f592d0c5.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.ae4ae1a0.chunk.css",
     "static/js/2.c0bf3286.chunk.js",
     "static/css/main.f592d0c5.chunk.css",
-    "static/js/main.ce8d9d06.chunk.js"
+    "static/js/main.6aeb57b1.chunk.js"
   ]
 }
